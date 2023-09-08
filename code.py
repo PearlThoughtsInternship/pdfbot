@@ -20,6 +20,8 @@ from pymongo.mongo_client import MongoClient
 from pymongo.mongo_client import MongoClient
 import itertools
 
+
+print('hello')
 def chunks2(iterable, batch_size=100):
     """A helper function to break an iterable into chunks of size batch_size."""
     it = iter(iterable)
